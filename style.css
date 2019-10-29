@@ -1,0 +1,393 @@
+a{
+  text-decoration: none;
+}
+.main {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 700px;
+  /* UI Properties */
+  background-image: url(images/main.jpg);
+  opacity: 1;
+  backdrop-filter: blur(undefined);
+  -webkit-backdrop-filter: blur(undefined);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden
+}
+
+ .main-top {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 2;
+  /* UI Properties */
+  background: #3F51B5 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 3px 3px #00000029;
+  box-shadow: 0px 3px 3px #00000029;
+  opacity: 1;
+  overflow: hidden;
+}
+.main-inner{
+  margin: 0 140px;
+  padding-top:30px; 
+  display: flex;
+  justify-content:space-between;
+  overflow: hidden;
+}
+.main-list ul{
+  list-style: none;
+  display: flex;
+  padding-top: 10px;
+}
+.main-list li{
+  margin-right: 30px;
+  text-align: left;
+  font:  16px/26px Yu Gothic;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  opacity: 1;
+}
+.main-list li:hover{
+  border-bottom: #E81919 solid 2px;
+}
+.main-list li a{
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+.main-list li:last-child{
+  padding: 0;
+}
+
+.main-content{
+  letter-spacing: 0;
+  color: #333333;
+  opacity: 1;
+  white-space: nowrap;
+  text-align: center;
+  overflow: hidden;
+}
+.bkRGBA{
+  /* 背景画像の透過用css */
+  height: 700px;
+  background: rgba(255,255,255,0.4);
+}
+.main-content h1{
+  line-height: 108px;
+  padding-top: 237px;
+  font-size: 68px;
+  color: #333333;
+  display: block;
+  margin: auto;
+}
+.main-content h2{
+  font-size: 38px;
+  display: block;
+  margin: auto;
+}
+.main-content a{
+  font-size: 38px;
+  display: inline-block;
+  margin: auto;
+  background: #3F51B5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 12px;
+  opacity: 1;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 14px 81px;
+  margin-top: 77px;
+  
+}
+.main-content a:hover{
+  background-color: #E81919;
+  transition: 0.8s ;
+}
+
+#card{
+
+background: #EFEFEF 0% 0% no-repeat padding-box;
+padding-bottom:119px; 
+}
+.section-head{
+  padding-top: 66px;
+  text-align: center;
+  font:bold 60px Yu Gothic;
+  letter-spacing: 0;
+  color: #333333;
+}
+
+.inner{
+  width: 1088px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.card-inner{
+  margin-top:113px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+.card{
+  width: calc(33.333333333% - 60px / 3);
+  height: 355px;
+  padding: 16px 16px;
+  margin: 0 30px 19px 0;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+.card:nth-child(3n+3){
+  margin-right: 0;
+}
+.card-img{
+  width: 100%;
+  height: 161px;
+  background-color: #DDDDDD;
+  
+}
+.card-title{
+  text-align: left;
+  color: #6F7579;
+  margin: 18px 0 20px;
+  font-size: 20px;
+}
+.card-text{
+  line-height: 24px;
+  font-size: 16px;
+
+}
+.news-contents {
+  width: 80%;
+  font-size: 16px;
+  margin: 0 auto;
+  font-weight: normal;
+}
+
+.news .section-head {
+  margin-bottom: 110px;
+}
+table{
+  border-collapse: collapse;
+  color: #333333;
+}
+.news tr{
+  border-bottom:1px solid #333333; 
+}
+.news tr:last-child {
+  border-bottom: none;
+}
+.news td{
+  vertical-align: top;
+  padding: 17px 30px 17px 0;
+  line-height: 27.5px;
+  display: block;
+}
+.news-label a{
+  text-align: center;
+  line-height: 30px;
+  width: 100px;
+  height: 30px;
+  color: #fff;
+  display: inline-block;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.news-head{
+  widows: 100%;
+}
+.news-head a{
+  color: #333333;
+}
+.news a:hover{
+  opacity: 0.6;
+}
+
+
+.gray{
+  background-color: #666666;
+}
+.bule{
+  background-color: #3F51B5;
+}
+.red{
+  background-color: #E81919;
+}
+
+.news-a{
+  display: block;
+  margin: 17px 0 29px;
+  text-align: center;
+}
+.news-a a{
+  color: #E81919;
+  font-weight: 700;
+}
+
+.price{
+  background-color: #efefef;
+}
+.price .section-head {
+  line-height: 71px;
+  margin-bottom: 115px;
+}
+.price-contents{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 106px;
+}
+.price-contents img{
+  margin-right: 122px;
+}
+.price-th{
+  background-color: #999999;
+  color: #FFFFFF;
+}
+.price-contents th , .price-contents td{
+  border: 1px solid #707070;
+}
+.price tr, .th1 {
+  width: 160px;
+  height: 47px;
+}
+.th2{
+  width: 224px;
+}
+.price-td {
+  font-weight: normal;
+  background-color: #fff;
+  text-align: right;
+  padding-right: 16px;
+}
+.red-font{
+  color: #E81919;
+}
+.access .section-head{
+  line-height: 71px;
+  margin-bottom: 145.43px;
+}
+.access-map{
+  text-align: center;
+}
+.access-address{
+  text-align: center;
+  margin: 28.85px 0;
+}
+.access-address a{
+  display: inline-block;
+  background-color: #3F51B5;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 58px;
+  border-radius: 12px;
+  transition: all 0.3s ease 0s;
+  color: #fff;
+  position: relative;
+}
+.access-address a:hover{
+  background-color: #E81919;
+}
+
+.contact{
+  background-color: #EFEFEF;
+}
+.contact-form{
+  margin: 0 auto;
+  text-align: center;
+    background-color: #fff;
+    padding: 54px 43px 0 52px;
+    width: 800px;
+}
+input ,select{
+  line-height: 60px;
+    padding: 0 16px;
+    width: 528px;
+    height: 60px;
+    border: 1px solid #707070;
+}
+.contact-form p{
+  display: inline-block;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: bold;
+  width: 177px;
+}
+.contact-form-input{
+  margin-bottom: 49px;
+  display: flex;
+}
+.contact-form-input textarea{
+  border: 1px solid #707070;
+    line-height: 45px;
+    padding: 0 16px;
+    width: 528px;
+    height: 240px;
+}
+
+@media screen and (max-width:1085px) {
+  .main-list{
+    display: none;
+  }
+  .card{
+    width: calc(50% - 20px / 2);
+    margin-right: 20px;
+  }
+  .card:nth-child(3n+3){
+    margin-right: 20px;
+  }
+  .card:nth-child(2n){
+    margin-right: 0px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width:600px) {
+  /*スマホ用のcssを記述*/
+  .main-inner{
+    margin: 0;
+  }
+  .main-logo{
+    position: static;
+  }
+  .main-list{
+    display: none;
+  }
+  .main-content h1{
+    font-size: 32px;
+  }
+  .main-content h2{
+    font-size: 28px;
+  }
+  .main-content  a{
+    font-size: 18px;
+    padding: 9px 40px;
+  }
+  .card{
+    width: 100%;
+    margin-right: 0;
+  }
+  .card:nth-child(3n+3){
+    margin-right: 0;
+  }
+  .news-contents{
+    margin: 0;
+  }
+  .news-head{
+    max-width: 370px;
+  }
+  .news .inner {
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  .news-contents{
+    margin: 0 auto;
+    width: 90%;
+  }
+  }
+     
