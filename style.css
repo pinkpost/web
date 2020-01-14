@@ -538,6 +538,8 @@ footer{
 .footer-left a{
     color: #fff;
 }
+.footer-left a:hover{
+    text-decoration: underline;
 .footer-left ul{
     margin-top: 40px;
 }
