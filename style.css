@@ -15,7 +15,7 @@ body{
 
 
 .top{
-    background-image: url(../img/mv.png);
+    background-image: url(img/mv.png);
     height: 648px;
     background-size:cover;
 }
@@ -292,7 +292,7 @@ dd{
 .faqs{
     margin-top: -500px;
     background-size: cover;
-    background-image: url(../img/sunyu-kim-1053375-unsplash.png);
+    background-image: url(img/sunyu-kim-1053375-unsplash.png);
     height: 1065px;
 }
 .faqs h3{
@@ -436,7 +436,7 @@ dd{
     box-shadow: 0px 0px 10px #3E3E3E33;
 }
 .contact{
-    background-image:url(../img/alex-blajan-159378-unsplash.png);
+    background-image:url(img/alex-blajan-159378-unsplash.png);
     background-size: cover;
     height: 1216px;
 }
@@ -448,7 +448,7 @@ dd{
 }
 .contact-header{
     height: 200px;
-    background-image: url(../img/contact1.png);
+    background-image: url(img/contact1.png);
 }
 .contact-header p{
     color: #FFFFFF;
